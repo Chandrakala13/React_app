@@ -1,4 +1,6 @@
-function header() {
+import React from 'react'
+
+function Header() {
   return (
     <header>
       <h1>Todo App</h1>
@@ -6,4 +8,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
